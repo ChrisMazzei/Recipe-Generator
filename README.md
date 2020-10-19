@@ -1,6 +1,8 @@
-This is "Milestone 2" of a class project for CS490 with Professor Sresht Rengesh at NJIT.
+# Recipe Generator
+# Developed by Chris Mazzei
+Note: This is cloned from my private repo version of the web app. Private repo along with all the commits is viewable upon request. 
 
-Milestone 2 uses the Python and the Twitter API to fetch tweets that include 7 different and unique foods in the tweet.
+Recipe Generator uses the Python and the Twitter API to fetch tweets that include 7 different and unique foods in the tweet.
 HTML and CSS is used to display the tweets data on a webpage. The data displayed is the user of the tweet, the tweet itself, and time and date of the tweet.
 The Spoonacular API is used to display data for one of the unique foods such as, the recipe, prep time, serve time, and link to the recipe.
 
