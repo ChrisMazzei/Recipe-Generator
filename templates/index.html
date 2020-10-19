@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../static/styles.css">
+    </head>
+    <body>
+        <div class=container>
+            <aside class="aside1">
+                <h1>{{title}}</h1>
+                <img src="{{image}}" alt="Food Image">
+            </aside>
+    
+            <aside class="aside2">
+                <ul style="list-style-type:none;">
+                    {%for ingred in ingredMap%}
+                        <li>{{ingredMap[ingred][0]}} {{ingredMap[ingred][1]}} {{ingred}}</li>
+                    {%endfor%}
+                </ul>
+            </aside>    
+            <div class=content1>
+                <p>Ready in {{readyInMinutes}}</p>
+                <p>Serving size is {{servings}}</p>
+                <a href="{{url}}">Link to Recipe</a>
+            </div>
+        </div>
+        <div class=content2>
+            <h2>{{user}}'s tweet about {{foodType}}</h2>
+            <p>{{tweet}}<p>
+            <h4>{{date}}</h4>
+        </div>
+    </body>
+</html>

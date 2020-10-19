@@ -1,0 +1,4 @@
+tweepy
+spoonacular
+Flask
+python-dotenv
