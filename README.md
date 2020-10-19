@@ -1,5 +1,6 @@
 # Recipe Generator
 # Developed by Chris Mazzei
+Note: Instructions refer to cloning from the original repo that is private. Access may be available upon request.
 Note: This is cloned from my private repo version of the web app. Private repo along with all the commits is viewable upon request. 
 
 Recipe Generator uses the Python and the Twitter API to fetch tweets that include 7 different and unique foods in the tweet.
